@@ -8,4 +8,4 @@ To publish a new package through NPM, run the following commands from the root f
 yarn publish:package --tag <alpha | beta>
 ```
 
-> The above command should only be run for `alpha` or `beta` packages. This repo's CircleCI will automatically publish latest packages from the master branch.
+> The above command should only be run for `alpha` or `beta` packages. This repo's Github workflow will automatically publish latest packages from the master branch.
