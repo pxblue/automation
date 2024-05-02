@@ -1,7 +1,5 @@
 # Automation
 
-trigger
-
 This repository contains a number of utilities to assist with the creation and publication of Brightlayer UI packages.
 
 #### Available Utilities
