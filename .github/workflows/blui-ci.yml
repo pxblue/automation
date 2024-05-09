@@ -51,7 +51,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --immutable
-      - run: bash scripts/publish.sh -b ${{env.BRANCH}}
+      - run: bash scripts/publish.sh -- -b ${{env.BRANCH}}
         working-directory: blui-publish
 
   publish_blui_tag:
@@ -71,5 +71,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --immutable
-      - run: npm run publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -- -b ${{env.BRANCH}}
         working-directory: blui-tag
