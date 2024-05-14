@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 jobs:
-  pr-labels:
+  call-workflow-in-local-repo:
     uses: etn-ccis/blui-automation/.github/workflows/blui-labels.yml@dev
     secrets: inherit
 
