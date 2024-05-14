@@ -1,5 +1,5 @@
 name: blui-local-labels
-run-name: Labels
+run-name: Local-Labels
 on:
   pull_request_target:
     types:
