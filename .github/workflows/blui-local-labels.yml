@@ -1,3 +1,4 @@
+# this label job is only for the automation repo and is not the reuseable workflow.
 name: blui-local-labels
 run-name: Local-Labels
 on:
