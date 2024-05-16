@@ -1,11 +1,11 @@
 name: blui-local-labels
 run-name: Local-Labels
 on:
+  pull_request:
+    branches: [ "dev", "master" ]
   pull_request_target:
     types:
       - opened
-      - edited
-      - synchronize
     branches:
       - '*/*'
 
