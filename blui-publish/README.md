@@ -6,8 +6,8 @@ This Command Line tool is a utility for automatically publishing NPM packages ba
 
 In order to use this utility you must have the following installed:
 
--   [NodeJS](https://nodejs.org/en/download/) 12+
--   npm
+- [NodeJS](https://nodejs.org/en/download/) 12+
+- npm
 
 ## Usage
 
