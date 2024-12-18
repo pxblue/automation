@@ -7,9 +7,9 @@ Given a `package.json` and a `CHANGELOG.md`, it will parse out the latest releas
 
 In order to use this utility you must have the following installed:
 
--   [NodeJS](https://nodejs.org/en/download/) 12+
--   npm
--   [Github CLI](https://cli.github.com/)
+- [NodeJS](https://nodejs.org/en/download/) 12+
+- npm
+- [Github CLI](https://cli.github.com/)
 
 ## Usage
 
